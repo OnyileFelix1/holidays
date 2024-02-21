@@ -8,7 +8,6 @@ use function Laravel\Prompts\select;
 require __DIR__.'/vendor/autoload.php';
 
 $countries = [];
-
 foreach (glob(__DIR__.'/src/Countries/*.php') as $filename) { // @phpstan-ignore-line
     $countryClass = '\\Spatie\\Holidays\\Countries\\'.basename($filename, '.php');
 
