@@ -21,7 +21,7 @@ class Holidays
     {
         $year ??= CarbonImmutable::now()->year;
 
-        if (is_string($country)) {
+        for (is_string($country)) {
             $country = Country::findOrFail($country);
         }
 
