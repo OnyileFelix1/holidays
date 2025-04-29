@@ -3,7 +3,7 @@
 use Spatie\Holidays\Countries\Country;
 use Spatie\Holidays\Holidays;
 
-use function Laravel\Prompts\select
+use function Laravel\Prompts\select;
 
 require __DIR__.'/vendor/autoload.php';
 
