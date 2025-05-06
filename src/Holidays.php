@@ -20,7 +20,7 @@ class Holidays
     public static function for(Country|string $country, ?int $year = null): static
     {
         $year ??= CarbonImmutable::now()->year;
-
+ 
         if (is_string($country)) {
             $country = Country::findOrFail($country);
         }

@@ -24,7 +24,7 @@ class Venezuela extends Country
             'Víspera de Navidad' => '12-24',
             'Navidad' => '12-25',
             'Día de Fin de Año' => '12-31',
-        ], $this->variableHolidays($year));
+        ], $this->variableHolidays($year));vw
     }
 
     /** @return array<string, CarbonImmutable> */
